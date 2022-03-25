@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /*
+Host: developer-portfolio-bhargavkatira.vercel.app
