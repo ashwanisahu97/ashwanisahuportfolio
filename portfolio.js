@@ -1,6 +1,8 @@
 import emoji from "react-easy-emoji";
-import picture from "./vijaysales.png";
-import pictures from "./travelocity.png";
+import vijaysales from "./vijaysales.png";
+import travelocity from "./travelocity.png";
+import rodanfields from "./rodanfields.png";
+import you_and_me_shop from "./you-and-me-shop.png";
 // import picturess from "./front.png";
 // import facebook from "./facebook.png";
 
@@ -10,7 +12,7 @@ export const greetings = {
   description:
     "I am a Tech Enthusiast, good at adapting to new technologies. My interests include full-stack developments, problem-solving, writing quality code and system design. I am an effective communicator, problem-solver and an aspiring leader in the making.",
   resumeLink:
-    "https://drive.google.com/file/d/1-zpp7WMgzwf0Pz0_BPQbeHCHKX7JefjC/view?usp=sharing",
+    "https://drive.google.com/file/d/1KAhHE1C4-VV8-Z_PEpqPj6yJ7qzrHz9u/view?usp=sharing",
 };
 
 export const openSource = {
@@ -158,8 +160,36 @@ export const experience = [
 
 export const projects = [
   {
-    name: "VijaySales.com Clone",
-    img: picture,
+    name: "Rodan and Fields Clone",
+    img: rodanfields,
+    title:"R+F, is an American multi-level marketing company specializing in skincare products",
+    desc: [
+      "Built product details Page with functionality.",
+      "Developed a functional cart page.",
+      "Implemented add and remove functionality in cart using Redux .",
+    ],
+    Tech: "React | Redux | Chakra Ui | Json-server",
+    github: "https://github.com/Mallikarjuna-dev/serene-scarecrow-3205",
+    link: "https://rodanandfields-clone-orcin.vercel.app/",
+  },
+  {
+    name: "You&Me Shop",
+    img: you_and_me_shop,
+    title:`You&Me shop is an online platform where
+    customers can buy any men's and women's clothes,
+    electronics, and jewelery products`,
+    desc: [
+      "Created Homepage,product details page with proper functionality.",
+      "Built static Navbar and Sign in/Signup Page.",
+      "Cart functionality and wishlist drawer.",
+    ],
+    Tech: "React | Redux | Chakra Ui | Json-server",
+    github: "https://github.com/ashwanisahu97/You-and-me-shop",
+    link: "https://you-and-me-shop.vercel.app/",
+  },
+  {
+    name: "vijaySales.com Clone",
+    img: vijaysales,
     title:"A web application for  consumers to buy any electronic products.",
     desc: [
       "Built Home Page with functionality.",
@@ -167,12 +197,12 @@ export const projects = [
       "Created and manipulated data using local storage.",
     ],
     Tech: "HTML | CSS | Javascript | LocalStorage",
-    github: "https://github.com/ashwanisahu97/vijaysales-clone",
-    link: "https://github.com/GobindSetia/vijaysales-clone",
+    github: "https://github.com/GobindSetia/vijaysales-clone",
+    link: "https://thirsty-feynman-5c455d.netlify.app/",
   },
   {
     name: "Travelocity.com Clone",
-    img: pictures,
+    img: travelocity,
     title:"Travelocity.com is a leading travel website where travelers can make airline,hotel and car rental reservations .",
     desc: [
       "Created Sign in/signup page with proper functionality.",
@@ -181,8 +211,8 @@ export const projects = [
     ],
     Tech: "HTML | CSS | Javascript | LocalStorage",
     github: "https://github.com/nHari9/travelocity-clone",
-    link: "https://61f6ab4f1efdd2cb80d413ce--confident-nightingale-fa7be9.netlify.app/",
-  },
+    link: "https://vijaysales-clone.vercel.app/",
+  }
   // {
   //   name: "Frontend Masters",
   //   img: picturess,

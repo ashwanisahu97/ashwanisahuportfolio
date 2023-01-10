@@ -34,11 +34,11 @@ const Navigation = () => {
           id="navbar-main"
         >
           <Container>
-            <NavbarBrand href="/" className="mr-lg-5">
+            {/* <NavbarBrand href="/" className="mr-lg-5">
               <h2 className="text-white" id="nav-title">
                 {greetings.name}
               </h2>
-            </NavbarBrand>
+            </NavbarBrand> */}
             <button
               className="navbar-toggler"
               aria-label="navbar_toggle"
@@ -69,15 +69,26 @@ const Navigation = () => {
                 </Row>
               </div>
               <Nav className="align-items-lg-center ml-lg-auto" navbar>
-                <NavItem>
+                {/* <NavItem>
                   <NavLink
-                    href="#intro"
+                    href="#education"
                     style={{
                       scrollBehavior: " smooth",
                     }}
                   >
                     <i />
                     <span>INTRO</span>
+                  </NavLink>
+                </NavItem> */}
+                <NavItem>
+                  <NavLink
+                    href="#intro"
+                    style={{
+                      scrollBehavior: "smooth",
+                    }}
+                  >
+                    <i />
+                    <span>ABOUT</span>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -88,7 +99,7 @@ const Navigation = () => {
                     }}
                   >
                     <i />
-                    <span>ABOUT</span>
+                    <span>SKILLS</span>
                   </NavLink>
                 </NavItem>
                 <NavItem>
