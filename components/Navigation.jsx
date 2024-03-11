@@ -3,7 +3,6 @@ import { greetings } from "../portfolio";
 import Headroom from "headroom.js";
 import {
   UncontrolledCollapse,
-  NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
