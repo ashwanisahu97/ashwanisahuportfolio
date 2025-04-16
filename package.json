@@ -7,7 +7,7 @@
 	"author": "Bhargav Katira",
 	"license": "",
 	"scripts": {
-		"dev": "next dev",
+		"dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next dev",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint"
@@ -25,9 +25,9 @@
 		"next": "11.1.2",
 		"nouislider": "^15.2.0",
 		"prop-types": "^15.7.2",
-		"react": "17.0.2",
+		"react": "^18.2.0",
 		"react-datetime": "^3.0.4",
-		"react-dom": "17.0.2",
+		"react-dom": "^18.2.0",
 		"react-easy-emoji": "^1.5.0",
 		"react-headroom": "^3.1.1",
 		"react-lottie": "^1.2.3",
@@ -38,6 +38,7 @@
 		"sharp": "^0.29.1"
 	},
 	"devDependencies": {
+		"cross-env": "^7.0.3",
 		"eslint": "7.32.0",
 		"eslint-config-next": "11.1.2"
 	}

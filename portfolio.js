@@ -35,13 +35,35 @@ export const skillsSection = {
     emoji(
       "○ Be proficient in coding languages such as HTML, CSS, JavaScript, and React."
     ),
-    emoji("○ Develop highly interactive Front end / User Interfaces for your web and mobile applications."),
+    emoji(
+      "○ Develop highly interactive Front end / User Interfaces for your web and mobile applications."
+    ),
     // emoji(
     //   "○ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     // ),
   ],
 
   softwareSkills: [
+    {
+      skillName: "nextJs",
+      fontAwesomeClassname: "logos:nextjs-icon",
+    },
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "logos:typescript-icon",
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "logos:javascript",
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "logos:nodejs-icon",
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "vscode-icons:file-type-html",
@@ -50,23 +72,11 @@ export const skillsSection = {
       skillName: "css3",
       fontAwesomeClassname: "vscode-icons:file-type-css",
     },
-    // {
-    //   skillName: "sass",
-    //   fontAwesomeClassname: "logos:sass",
-    // },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "logos:javascript",
+      skillName: "sass",
+      fontAwesomeClassname: "logos:sass",
     },
 
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "logos:nodejs-icon",
-    },
     {
       skillName: "npm",
       fontAwesomeClassname: "vscode-icons:file-type-npm",
@@ -112,57 +122,65 @@ export const educationInfo = [
       "Communication Effectiveness.",
       "How to build great Personality and Mindset.",
       "Made many Collabarative and Individual Projects",
-      "Learned Toolset,Skillset,Mindset"
+      "Learned Toolset,Skillset,Mindset",
     ],
   },
   {
     schoolName: "Government Engineering College Bilaspur,Chhattisgarh",
     subHeader: "Bachelor's Of Technology in Computer Science",
     duration: "July 2016 - June 2020",
-    desc: "I have studied basic software engineering subjects like DS, Algorithm, DBMS, OS, AI etc.",
+    desc:
+      "I have studied basic software engineering subjects like DS, Algorithm, DBMS, OS, AI etc.",
     descBullets: [
       "Apart from this I have learnt software development from free Code Camp and Youtube",
-      "Participated in College Flash Mob Tech Fest "
+      "Participated in College Flash Mob Tech Fest ",
     ],
   },
 ];
 
 export const experience = [
   {
-    role: "Software Engineer",
-    company: "Google",
-    companylogo: "/img/icons/common/google.svg",
-    date: "June 2018 – Present",
+    role: "Front End Developer",
+    company: "Honeysys IT Service Pvt Ltd,Banglore,India",
+    companylogo:
+      "/img/icons/common/honeysys_it_services_private_limited_logo.jpeg",
+    date: "Jan 2023 – Present",
     desc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "2 years of hands-on experience in front-end development using React.js.",
     descBullets: [
-      "Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "created a dynamic and user-friendly website builder platforms and implemented a comprehensive solution for users to effortlessly create and customize their websites.",
+      "Collaborated closely with designers and backend teams.",
+      "Proficient in HTML, CSS, JavaScript, and modern frameworks.",
+      "Experienced in state management with Redux and Context API.",
+      "Focused on performance, accessibility, and clean UI.",
+      "Familiar with REST APIs and third-party integrations.",
+      "Actively involved in code reviews and agile development.",
     ],
   },
-  {
-    role: "Front-End Developer",
-    company: "Github",
-    companylogo: "/img/icons/common/github.svg",
-    date: "May 2017 – May 2018",
-    desc:
-      "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    role: "Software Engineer Intern",
-    company: "Airbnb",
-    companylogo: "/img/icons/common/airbnbLogo.png",
-    date: "Jan 2015 – Sep 2015",
-    desc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
+  // {
+  //   role: "Front-End Developer",
+  //   company: "Github",
+  //   companylogo: "/img/icons/common/github.svg",
+  //   date: "May 2017 – May 2018",
+  //   desc:
+  //     "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  // },
+  // {
+  //   role: "Software Engineer Intern",
+  //   company: "Airbnb",
+  //   companylogo: "/img/icons/common/airbnbLogo.png",
+  //   date: "Jan 2015 – Sep 2015",
+  //   desc:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  // },
 ];
 
 export const projects = [
   {
     name: "Rodan and Fields Clone",
     img: rodanfields,
-    title:"R+F, is an American multi-level marketing company specializing in skincare products",
+    title:
+      "R+F, is an American multi-level marketing company specializing in skincare products",
     desc: [
       "Built product details Page with functionality.",
       "Developed a functional cart page.",
@@ -175,7 +193,7 @@ export const projects = [
   {
     name: "You&Me Shop",
     img: you_and_me_shop,
-    title:`You&Me shop is an online platform where
+    title: `You&Me shop is an online platform where
     customers can buy any men's and women's clothes,
     electronics, and jewelery products`,
     desc: [
@@ -190,7 +208,7 @@ export const projects = [
   {
     name: "vijaySales.com Clone",
     img: vijaysales,
-    title:"A web application for  consumers to buy any electronic products.",
+    title: "A web application for  consumers to buy any electronic products.",
     desc: [
       "Built Home Page with functionality.",
       "Developed a functional product & category page.",
@@ -203,7 +221,8 @@ export const projects = [
   {
     name: "Travelocity.com Clone",
     img: travelocity,
-    title:"Travelocity.com is a leading travel website where travelers can make airline,hotel and car rental reservations .",
+    title:
+      "Travelocity.com is a leading travel website where travelers can make airline,hotel and car rental reservations .",
     desc: [
       "Created Sign in/signup page with proper functionality.",
       "Built Support Page for customer queries.",
@@ -212,7 +231,7 @@ export const projects = [
     Tech: "HTML | CSS | Javascript | LocalStorage",
     github: "https://github.com/nHari9/travelocity-clone",
     link: "https://vijaysales-clone.vercel.app/",
-  }
+  },
   // {
   //   name: "Frontend Masters",
   //   img: picturess,
