@@ -22,7 +22,7 @@ const Navigation = () => {
     let headroom = new Headroom(document.getElementById("navbar-main"));
     // initialise
     headroom.init();
-  });
+  },[]);
 
   return (
     <>

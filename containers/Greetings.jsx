@@ -9,7 +9,7 @@ const Greetings = () => {
 	useEffect(() => {
 		document.documentElement.scrollTop = 0;
 		document.scrollingElement.scrollTop = 0;
-	});
+	},[]);
 	console.log(Ashwani);
 	return (
 		<main>
